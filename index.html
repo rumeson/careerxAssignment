@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>careerxAssignment</title>
+
+    <!-- HTML -->
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Check if number is odd or even -->
+    <div class="oddEvenDiv">
+      <h3>1. Even and odd function</h3>
+      <input type="number" name="number" id="checkNumber" /><br />
+      <button class="button-3" id="checkOddEven">Check Odd or Even</button>
+      <p id="displayOddEven">Input a value to check if number is Odd or Even</p>
+    </div>
+
+    <!-- Add item to list -->
+    <div class="listClass">
+      <h3>2. Add item to List</h3>
+      <div>
+        <input type="text" id="getItem" /><br />
+        <button class="button-3" id="addButton">Add to List</button>
+      </div>
+      <div>
+        <span id="alarm"></span>
+        <ul id="ul">
+          <li>First item on list</li>
+          <li>Second item on list</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Change background color of text -->
+    <div>
+      <h3>3. Change background text</h3>
+      <button class="button-3" id="failButton">failed</button>
+      <button class="button-3" id="successButton">successful</button>
+      <p id="backgroundChange">
+        Change my background text by clicking failed or successful button
+      </p>
+    </div>
+
+    <!-- fetch and display data -->
+    <div>
+      <h3>4. Fetch and Display Data</h3>
+      <p>
+        Click the button below to fetch and display data from Json Placeholder
+        API
+      </p>
+      <button class="button-3" id="fetchData">Click Me!</button>
+      <p id="displayData"></p>
+      <div id="displayDiv">
+        <span id="idSpan"></span><br />
+        <span id="nameSpan"></span><br />
+        <span id="emailSpan"></span><br />
+        <span id="bodySpan"></span><br />
+      </div>
+    </div>
+
+    <!-- Arithmetic formula for the area of a rectangle -->
+    <div>
+      <h3>5. Arithmetic formula for Area of a Rectangle</h3>
+      <input type="number" placeholder="Base" id="base" />
+      <input type="number" placeholder="Height" id="height" /><br />
+      <button class="button-3" id="solve">Solve</button>
+      <span id="dispAns"></span>
+    </div>
+
+    <!-- Project -->
+    <script src="main.js"></script>
+  </body>
+</html>
